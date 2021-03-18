@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="display" class="card-display-area">
+        <div id="hidden">
+            <!--hidden-->
+        </div>
+        <div class="player-cards-display">Player Hand
+            <div id="player-cards"></div>
+        </div>
+        <div class="dealer-cards-display">Dealer Hand
+            <div id="dealer-cards"></div>
+        </div>
+
+    </div>
+    <button id="new-game" onclick="newGame()">New Game</button>
+    <div id="scores">
+        <label id="player-score">Player Score:</label>
+        <label id="dealer-score">Dealer Score:</label>
+    </div>
+    <div class="hit-stay-container">
+        <button id="hit" onclick="hit()">Hit !</button>
+        <button id="stay" onclick="stay()">Stay</button>
+    </div>
+    <div class="end-game">
+        <button id="reset" onclick="reset()">Reset Game</button>
+        <div id="result">NONE</div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

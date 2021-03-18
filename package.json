@@ -1,0 +1,12 @@
+{
+  "name": "rahulraina711",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tester.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
